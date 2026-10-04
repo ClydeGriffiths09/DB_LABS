@@ -28,3 +28,15 @@ VALUES (999, 1);
 
 INSERT INTO registrations (attendee_id, conference_id, status) 
 VALUES (2, 1, 'invalid_status');
+
+INSERT INTO reviews (session_id, attendee_id, rating, comment) 
+VALUES (1, 3, 6, 'Слишком хорошо, чтобы быть правдой');
+
+INSERT INTO reviews (session_id, attendee_id, rating, comment) 
+VALUES (1, 3, 0, 'Ноль звезд');
+
+INSERT INTO reviews (session_id, attendee_id, rating, comment) 
+VALUES (1, 1, 2, 'Передумал, теперь оценка плохая');
+
+INSERT INTO reviews (session_id, attendee_id, rating) 
+VALUES (999, 1, 5);

@@ -36,3 +36,11 @@ INSERT INTO registrations (attendee_id, conference_id, status) VALUES
 (3, 1, 'cancelled'),
 (4, 5, 'registered'),
 (5, 2, 'registered');
+
+INSERT INTO reviews (session_id, attendee_id, rating, comment) VALUES
+(1, 1, 5, 'Отличный доклад, очень помогло с настройкой БД!'),
+(1, 2, 4, 'Хорошо, но хотелось бы больше примеров кода.'),
+(2, 1, 5, 'Максимально полезно, внедрили у себя в проекте.'),
+(3, 2, 3, 'Слишком базовый уровень для этой конференции.'),
+(5, 4, 5, 'John Doe рассказал всё четко и по делу.'),
+(6, 2, 4, 'Хорошие итоги года, спасибо.');
